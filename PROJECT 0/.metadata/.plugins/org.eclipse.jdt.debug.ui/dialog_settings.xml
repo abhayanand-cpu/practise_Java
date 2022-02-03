@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Assignment 2/src&amp;lt;{Q_22.java[Q_22&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Assignment 2/src&amp;lt;{Q_18.java[Q_18&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Assignment 2/src&amp;lt;{Q_19.java[Q_19&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Assignment 2/src&amp;lt;{Q_20.java[Q_20&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ASSIGNMENT_3/src&amp;lt;{A3Q11.java[A3Q11&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Assignment 2/src&amp;lt;{Q_15.java[Q_15&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="124"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

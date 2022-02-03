@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Data_type2&apos; to &apos;Input_output2&apos;&#x0D;&#x0A;- Original project: &apos;PROJECT 0&apos;&#x0D;&#x0A;- Original element: &apos;Data_type2&apos;&#x0D;&#x0A;- Renamed element: &apos;Input_output2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Data_type2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Data_type2.java[Data_type2" matchStrategy="1" name="Input_output2" qualified="false" references="true" similarDeclarations="false" stamp="1639910124575" textual="false" version="1.0"/>
+</session>

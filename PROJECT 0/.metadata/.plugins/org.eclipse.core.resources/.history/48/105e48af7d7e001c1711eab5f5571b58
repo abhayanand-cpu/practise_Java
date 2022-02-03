@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class A3Q_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Month: ");
+		int m = sc.nextInt();
+		System.out.print("Enter Year: ");
+		int y = sc.nextInt();
+		int days = 0;
+		if (y/4==0) {
+			 days = 29;
+		}
+		switch(m) {
+		case 1:
+			System.out.println("January "+y+" had 31 days");
+		case 2:
+			System.out.println("February "+y+" had"+days+"days");
+			
+		}
+		sc.close();
+	}
+
+}

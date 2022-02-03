@@ -1,0 +1,18 @@
+import  java.util.Scanner;
+public class Q_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Scanner sc = new Scanner(System.in);
+       short n,m,o,p,q;
+       n = sc.nextShort();
+       System.out.print("Enter a number between 0 and 1000: ");
+       m =(short)(n%10);//2
+       o =(short)(m/10);//93
+       p =(short)(o%10);//3
+       q =(short)(o/10);//9
+       System.out.print("The sum of the digit is "+(m+p+q));
+       sc.close();
+	}
+
+}

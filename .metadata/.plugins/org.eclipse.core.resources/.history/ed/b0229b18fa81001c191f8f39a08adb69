@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class A4Q_8 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int lastdigit = 0;
+		int i=1;
+		while(n>0) {
+			 lastdigit = lastdigit + n%10;
+			 n = n/10;
+			 i = i++;
+		}
+		int res = (lastdigit % 9 == 0) ?
+			
+		sc.close();	
+	}
+
+}
