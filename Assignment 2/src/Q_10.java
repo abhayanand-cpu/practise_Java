@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Q_10 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter three points for a triangle: ");
 		float x1 = sc.nextFloat() , y1 = sc.nextFloat();

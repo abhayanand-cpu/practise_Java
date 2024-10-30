@@ -12,8 +12,8 @@ public class Q_6 {
       weight = weight*0.45359237;
       height = height*0.0254;
       BMI = weight/(height*height);
-      System.out.println("BMI is "+(float)BMI);
-      System.out.println("");
+      System.out.print("BMI is "+(float)BMI);
+     
       sc.close();
 	}
 

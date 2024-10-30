@@ -8,23 +8,23 @@ public class A3Q7 {
 		float x = sc.nextFloat();
 		float y = sc.nextFloat();
 		if ( x>0 && y>0 )
-			System.out.println("("+x+","+" "+y+")"+"is in quadrant I");
+			System.out.println("("+x+","+" "+y+") "+"is in quadrant I");
 		else if ( x<0 && y>0 )
-			System.out.println("("+x+","+" "+y+")"+"is in quadrant II");
+			System.out.println("("+x+","+" "+y+") "+"is in quadrant II");
 		else if ( x<0 && y<0 )
-			System.out.println("("+x+","+" "+y+")"+"is in quadrant III");
+			System.out.println("("+x+","+" "+y+") "+"is in quadrant III");
 		else if ( x>0 && y<0 )
-			System.out.println("("+x+","+" "+y+")"+"is in quadrant IV");
+			System.out.println("("+x+","+" "+y+") "+"is in quadrant IV");
 		else if ( x>0 && y==0 )
-			System.out.println("("+x+","+" "+y+")"+"is on positive x-axis");
+			System.out.println("("+x+","+" "+y+") is on positive x-axis");
 		else if ( x==0 && y>0 )
-			System.out.println("("+x+","+" "+y+")"+"is on positive y-axis");
+			System.out.println("("+x+","+" "+y+") is on positive y-axis");
 		else if ( x<0 && y==0 )
-			System.out.println("("+x+","+" "+y+")"+"is on negative x-axis");
+			System.out.println("("+x+","+" "+y+") is on negative x-axis");
 		else if ( x==0 && y<0 )
-			System.out.println("("+x+","+" "+y+")"+"is on negative y-axis");
+			System.out.println("("+x+","+" "+y+") is on negative y-axis");
 		else
-			System.out.println("("+x+","+" "+y+")"+"is on origin");
+			System.out.println("("+x+","+" "+y+") is on origin");
 		sc.close();
 	}
 

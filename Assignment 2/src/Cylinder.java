@@ -5,7 +5,7 @@ public class Cylinder {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Scanner cylinder = new Scanner(System.in);
-        System.out.println("Enter the radius and length of a cylinder: ");
+        System.out.print("Enter the radius and length of a cylinder: ");
         double radius,length;
         radius = cylinder.nextFloat();
         length = cylinder.nextFloat();

@@ -5,7 +5,7 @@ public class Q_5 {
 		// TODO Auto-generated method stub
        Scanner sc = new Scanner(System.in);
        float Vo,V1,t,a;
-       System.out.print("Enter Vo,V1, and t: ");
+       System.out.print("Enter Vo, V1 and t: ");
        Vo = sc.nextFloat();
        V1 = sc.nextFloat();
        t = sc.nextFloat();

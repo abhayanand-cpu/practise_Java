@@ -9,7 +9,6 @@ public class Q_4 {
        n = sc.nextShort();
        m =(short)(n%10+(n/10)%10+n/100);//2+3+9
        
-      
        System.out.print("The sum of the digit is "+(m));
        sc.close();
 	}

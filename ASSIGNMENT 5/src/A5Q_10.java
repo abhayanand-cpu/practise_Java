@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class A5Q_10 {
+
+	public static void main(String[] args) {
+			    Scanner sc = new Scanner(System.in);
+				System.out.print("Enter the number of itration: ");
+				int n = sc.nextInt();
+				System.out.print("Enter the value of sin: ");
+				double x = sc.nextDouble();
+				int count = 1;
+				double Final2 = 0;
+				for(int i = 0; i<n; i++) {
+					double sign = Math.pow(-1, i);
+					
+					double cal = Math.pow(x, count)*sign;
+					double fact = 1;
+					for(int j=1; j<=count; j++) {
+						fact *= j;
+					}
+					
+					double Final = cal/fact;
+					 Final2 = Final+Final2;
+					count += 2;
+				}
+				
+				System.out.println("sin"+"("+x+") = "+Math.sin(Final2));
+				sc.close();
+			}
+
+		
+
+	}
+
+

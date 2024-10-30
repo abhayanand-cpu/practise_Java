@@ -12,7 +12,7 @@ public class Q_11 {
 		float c = sc.nextFloat();
 		b/= 1200;
 	    double d = a*(Math.pow((1+b),c*12));
-	    System.out.print("Accumulated value is $ "+d);
+	    System.out.print("Accumulated value is $"+d);
 	    sc.close();
 	}
 

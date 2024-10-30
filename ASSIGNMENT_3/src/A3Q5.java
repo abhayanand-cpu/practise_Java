@@ -14,7 +14,7 @@ public class A3Q5 {
 		if (d>0)
 			System.out.println("The equation has two roots "+r1+" and "+r2);
 		else if (d==0)
-			System.out.println("The equation has one roots "+r1+" "+r2);
+			System.out.println("The equation has one roots "+r1);
 		else
 			System.out.println("The equation has no real roots ");
 		sc.close();

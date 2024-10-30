@@ -49,7 +49,7 @@ public class A3Q_13 {
 			System.out.println("Novenber "+y+" had 30 days");
 			break;
 		case 12:
-			System.out.println("December "+y+" had 30 days");
+			System.out.println("December "+y+" had 31 days");
 			break;
 		}
 		sc.close();

@@ -8,6 +8,7 @@ public class A3Q_12 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
+		System.out.println("Display the integers in non-decreasing order:");
 		if( a>b && a>c && b>c && b<a && c<a && c<b)
 			System.out.println(c+" "+b+" "+a);
 		else if( b>a && b>c && a>c && b>a && c<b && c<a)

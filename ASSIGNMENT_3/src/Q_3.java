@@ -7,9 +7,9 @@ public class Q_3 {
 		System.out.print("Enter a number: ");
 		int a = sc.nextInt();
 		if(a%2==0)
-			System.out.println("even");
+			System.out.println("Even number");
 		else
-			System.out.println("odd");
+			System.out.println("Odd number");
 		sc.close();
 	}
 

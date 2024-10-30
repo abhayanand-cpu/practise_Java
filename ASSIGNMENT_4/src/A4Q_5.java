@@ -33,11 +33,6 @@
 //}
 
 
-
-
-
-
-
 import java.util.Scanner;
 public class A4Q_5 {
 

@@ -8,7 +8,8 @@ public class Q_13 {
 		long min = sc.nextLong();
 		long year = min/(365*24*60);
 		long days = (min%(365*24*60))/(60*24);
-		System.out.println(min+" minutes is approximately "+year+" and "+days+" days");
+		System.out.println(min+" minutes is approximately "+year+
+				" years and "+days+" days");
 		sc.close();
 	}
 

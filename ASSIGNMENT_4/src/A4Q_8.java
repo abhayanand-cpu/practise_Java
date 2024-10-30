@@ -3,7 +3,7 @@ public class A4Q_8 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		 System.out.println("Enter an integer: ");
+		System.out.print("Enter an integer: ");
 		int n = sc.nextInt();
 		int lastdigit = 0;
 		int i=1;

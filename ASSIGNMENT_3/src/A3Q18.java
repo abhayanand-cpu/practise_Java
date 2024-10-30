@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class A3Q_18 {
+public class A3Q18 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

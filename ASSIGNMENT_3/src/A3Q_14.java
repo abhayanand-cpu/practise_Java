@@ -8,7 +8,7 @@ public class A3Q_14 {
 		int b = sc.nextInt();
 		
 		if (a==0 && b==0)
-			System.out.println("The computer is scissor. You are scissor too. It is a draw");
+			System.out.println("The computer is scissor. You are scissor too. 5It is a draw");
 		else if (a==1 && b==1)
 			System.out.println("The computer is rock. You are rock too. It is a draw");
 		else if (a==2 && b==2)

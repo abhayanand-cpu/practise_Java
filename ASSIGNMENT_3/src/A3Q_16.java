@@ -6,6 +6,7 @@ public class A3Q_16 {
 		System.out.print("Enter your marks among 100: ");
 	    int marks = sc.nextInt();
 	    
+	    
 	    switch (marks) {
 	    case 90,91,92,93,94,95,96,97,98,99,100:
 	    	System.out.println("Your grade : O");
@@ -33,3 +34,4 @@ public class A3Q_16 {
 	}
 
 }
+

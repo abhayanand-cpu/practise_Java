@@ -10,7 +10,7 @@ public class Q_7 {
        side = hexagonal.nextDouble();
        area = (3*1.732*side*side)/2;
        //area = (3*Math.sqrt(3)*Math.pow(side,2))/2;
-       System.out.println("The area of hexagonal is "+area);
+       System.out.println("The area of hexagon is "+area);
        hexagonal.close();
 	}
 

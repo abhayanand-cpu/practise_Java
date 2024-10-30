@@ -5,8 +5,8 @@ public class A4Q_11_4 {
 		int n = sc.nextInt();
 		int k = 1;
 		for (int i = 1; i<=n; i++) {
-			for ( int j = 1;  j<=n-i; j++) {
-					System.out.print(" ");
+			for ( int j = 1;  j<=n-i; j++ ) {
+				System.out.print(" ");
 				   
 			}
 			for ( int j = 1;  j<=i; j++) {
@@ -19,8 +19,7 @@ public class A4Q_11_4 {
 		
 	sc.close();
 	}
-			
-			
+
 }
 //package assignmentIV;
 // import java.util.Scanner; 
