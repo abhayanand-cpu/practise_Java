@@ -1,0 +1,86 @@
+<svg width="440" height="101" viewBox="0 0 440 101" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="crest-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3497cf" />
+      <stop offset="42%" stop-color="#1f75ad" />
+      <stop offset="100%" stop-color="#0a3f69" />
+    </linearGradient>
+
+    <linearGradient id="crest-highlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#65d9ff" stop-opacity="0.72" />
+      <stop offset="52%" stop-color="#65d9ff" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#65d9ff" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="node-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5dd8ff" />
+      <stop offset="100%" stop-color="#1aa3d9" />
+    </linearGradient>
+
+    <style>
+      .connector-outline {
+        stroke: #0a3f69;
+        stroke-width: 10;
+        stroke-linecap: round;
+      }
+
+      .connector-inner {
+        stroke: #3cb4e5;
+        stroke-width: 4.2;
+        stroke-linecap: round;
+        opacity: 0.7;
+      }
+
+      .crest-base {
+        font-family: "Arial Black", "Segoe UI Black", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 74px;
+        letter-spacing: -4px;
+      }
+
+      .erp-base {
+        font-family: "Arial Black", "Segoe UI Black", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 41px;
+        letter-spacing: -4px;
+      }
+    </style>
+  </defs>
+
+  <!-- Molecule icon -->
+  <g transform="translate(8,6)">
+    <line x1="22" y1="64" x2="62" y2="37" class="connector-outline" />
+    <line x1="22" y1="64" x2="62" y2="37" class="connector-inner" />
+
+    <line x1="73" y1="44" x2="88" y2="55" class="connector-outline" />
+    <line x1="73" y1="44" x2="88" y2="55" class="connector-inner" />
+
+    <line x1="77" y1="33" x2="121" y2="33" class="connector-outline" />
+    <line x1="77" y1="33" x2="121" y2="33" class="connector-inner" />
+
+    <circle cx="14" cy="70" r="12" fill="none" stroke="#0a3f69" stroke-width="6" />
+
+    <circle cx="68" cy="31" r="16" fill="#0a3f69" />
+    <circle cx="68" cy="31" r="10" fill="url(#node-fill)" />
+    <circle cx="68" cy="31" r="4.2" fill="#3ec6ef" opacity="0.5" />
+
+    <circle cx="94" cy="58" r="16" fill="#0a3f69" />
+    <circle cx="94" cy="58" r="10" fill="url(#node-fill)" />
+    <circle cx="94" cy="58" r="4.2" fill="#3ec6ef" opacity="0.45" />
+  </g>
+
+  <!-- CREST wordmark -->
+  <g transform="translate(0,0) skewX(-14)">
+    <text x="140" y="74" class="crest-base" fill="#0a3f69">CREST</text>
+    <text x="140" y="74" class="crest-base" fill="url(#crest-fill)">CREST</text>
+    <text x="140" y="74" class="crest-base" fill="url(#crest-highlight)">CREST</text>
+  </g>
+
+  <!-- ERP outlined text -->
+  <g transform="translate(0,0) skewX(-14)">
+    <text x="354" y="79" class="erp-base" fill="none" stroke="#0a3f69" stroke-width="8.6" stroke-linejoin="round">ERP</text>
+    <text x="354" y="79" class="erp-base" fill="none" stroke="#36bced" stroke-width="4.8" stroke-linejoin="round">ERP</text>
+  </g>
+</svg>
